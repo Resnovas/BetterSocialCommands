@@ -1,0 +1,9 @@
+identifiers:
+  # Each Identifier needs to be unique, otherwise it will throw errors
+  # Make sure this lines up with the identifiers in "social.yml" within "BetterSocial" folder
+  discord:
+    enabled: true # Should this identifier be used?
+    linkedCommands: # The commands that should be executed after linked event
+      - discordsrv link %bettersocial_value_discord%
+    unlinkedCommands: # The commands that should be executed after linked event
+      - 'console: discordsrv unlink %player_name%'

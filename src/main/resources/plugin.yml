@@ -1,0 +1,11 @@
+name: BetterSocialCommands
+version: 1.0.0
+author: tgt_gamer
+main: studio.videndum.gdgaming.BetterSocialCommands.BetterSocialCommands
+api-version: 1.16
+depend: [BetterSocial, PlaceholderAPI]
+commands:
+  BetterSocialCommands:
+    description: reload the plugin
+    usage: /<command> [reload]
+    aliases: [ bsc ]
